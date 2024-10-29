@@ -1,7 +1,8 @@
-### MIT 6.5840: Distributed Systems
+### Exercise: Web Crawler
 
-#### Lab 1: MapReduce
+идея и заготовка взята из ["A Tour of Go"](https://go.dev/tour/concurrency/10v)
 
-В качестве проекта по практике я взял 1 лабораторную работу из MIT, по предмету Distributed Systems
+Дано: код Веб-сканера на go.
+Сделать: Измените функцию Crawl, чтобы она получала URL-адреса параллельно, без повторной выборки одного и того же URL-адреса.
 
-[Методичка](https://pdos.csail.mit.edu/6.824/labs/lab-mr.html)
+`go build -o myapp2 stupidCrawler/stupidCrawler.go`
